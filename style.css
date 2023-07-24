@@ -1,0 +1,130 @@
+body{
+    background:#111827;
+    color: #fff;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    min-height: 70vh;
+    background-image: url(./image/banner.jpeg);
+    background-repeat:repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+}
+.header:before{
+    content: '';
+    width: 100%;
+    min-height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(180deg, rgba(22, 50, 95, 0.58) 75.47%, rgba(54, 78, 116, 0.00) 100%);
+}
+.bg-dark{
+    position: fixed;
+    z-index:20;
+    width: 100%;
+    
+}
+@media(min-width:991px){
+    .bg-dark{
+        background-color: transparent !important;
+    }
+}
+
+
+#navbarNav a{
+    color: #fff !important;
+    font-size: 22px;
+    padding: 30px ;
+    text-align: center;
+    text-transform:uppercase;
+    font-family: 'Monserrat';
+}
+#navbarNav a:hover{
+    background-color:rgba(44, 102, 195, 1);
+}
+.titulo{
+    position: relative !important;
+    display: block;
+    text-align: center;
+    margin-bottom: 250px;
+    margin-top: -350px;
+    font-size: 25px;
+    border-style: solid;
+    border-width:thin;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 42px;
+    padding: 20px;
+    
+
+}
+.titulo h1{
+    margin-bottom: 5px;
+}
+.foto-perfil{
+    position: relative;
+    display: block;
+    margin-top: -150px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-radius: 150px;
+    border-color: black;
+    
+}
+.acercaDe h2{
+    text-align: center ;
+    padding: 10px;
+    font-size: 28px;
+}
+.acercaDe{
+    padding: 30px;
+}
+
+.acercaDe p{
+    text-align: center;
+    font-size: 22px;
+    padding: 30px;
+    
+}
+.cards h2{
+    text-align: center ;
+    padding: 10px;
+    font-size: 28px;
+    margin-bottom: 40px;
+
+}
+.card{
+    padding: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+.habilidades h2{
+    text-align: center ;
+    padding: 10px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.contacto h2{
+    text-align: center ;
+    padding: 10px;
+    font-size: 28px;
+    margin-bottom: 40px;
+    
+}
+.footerImg{
+    width: 10%;  
+    padding: 20px;
+    margin-top: 25px;
+}
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 16px;
+}
